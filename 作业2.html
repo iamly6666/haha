@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>嘿嘿嘿</title>
+<style type="text/css">
+    .container{
+        width:600px;
+        height:1000px;
+        position:absolute;
+        top:100px;
+        left:200px;
+        right:200px;
+        margin: 0 auto;
+    }
+    .container .header{
+    height:100px;
+    width:100%;
+    background-color: green;
+    font-size:45px;
+    text-align: center;
+
+    }
+    .container .main{
+    position: relative;
+    }
+    .container .main .left{
+    position:relative;
+    top:0;
+    left:0;
+    height:300px;
+    width:40%;
+    background-color: red;
+    font-size:25px;
+    text-align: right;
+    }
+    .container .main .right{
+    position: absolute;
+    top:0;
+    right:0;
+    height:300px;
+    width:60%;
+    background-color:white;
+    font-size:25px;
+    }
+    .container .bottom{
+        height:100px;
+        background-color: lightgray;
+        text-align: center;
+        font-size:45px;
+    }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+                <div class="header">消息总览表</div>
+                <div class="main">
+                    <div class="left">1.消息1<br/>2.消息2<br/>3.消息3<br/>4.消息4<br/>5.消息5<br/></div> 
+                    <div class="right">1.消息1<br/>2.消息2<br/>3.消息3<br/>4.消息4<br/>5.消息5<br/></div>
+                </div>
+                <div class="bottom">以上就是全部消息了</div>
+                
+        </div>
+</body>
+</html>               
